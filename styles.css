@@ -1,0 +1,424 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+/* table {
+	border-collapse: collapse;
+	border-spacing: 0;
+} */
+
+
+
+
+
+
+
+
+body {
+  margin: 0;
+  line-height: 2;
+}
+
+button{
+	border: none;
+	outline: none;
+}
+
+button:active{
+	outline: none;
+}
+
+button:focus{
+	outline: none;
+}
+
+/* NAVBAR STYLING */
+.navbar {
+  padding: 2% 10% 0 10%;
+}
+
+.logo {
+  font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+  font-weight: bolder;
+  color: #15354B;
+  font-size: 2rem;
+  letter-spacing: 2px;
+}
+
+#navbar a {
+  font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+  color: #15354B;
+  letter-spacing: 1px;
+}
+
+.nav-item {
+  padding: 0;
+  margin-right: 30px;
+}
+
+.navbar-button {
+  background-color: #EF7F65;
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1rem;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 30px;
+  padding: 6px 50px;
+}
+
+.navbar-button:active {
+  background-color: #E2775E;
+}
+
+
+/* HOME STYLING */
+#home {
+  text-align: center;
+  padding: 2% 7%;
+}
+
+#home h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3.2rem;
+  margin-top: 2%;
+  margin-bottom: 4%
+}
+
+#home p {
+  font-family: 'Rubik', sans-serif;
+  font-size: 1.25rem;
+  margin-bottom: 4%
+}
+
+#home button {
+  display: block;
+  margin: 0 auto 4% auto;
+	border: 2px solid #506270;
+  border-radius: 30px;
+  background-color: #fff;
+  color: #506270;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1rem;
+  padding: 1% 8%;
+  border-image: none;
+}
+
+#home button:active {
+  background-color: #e8e8e8;
+}
+
+#home img {
+  width: 1050px;
+  height: 350px;
+}
+
+/* CORE VALUES STYLING */
+#core-values {
+  margin: 7% 0;
+  background-color: #EFF8FF;
+}
+
+#core-values h3 {
+  margin: 3% 0;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.75rem;
+}
+
+#core-values p {
+  font-family: 'Rubik', sans-serif;
+  font-size: 1rem;
+	line-height: 2;
+}
+
+.core-heading {
+  position: absolute;
+  left: 4%;
+}
+
+.flex-core-value {
+  display: flex;
+  padding: 2% 7%;
+  margin: 7% 1% 1% 7%;
+  justify-content: center;
+}
+
+.sub-core-values {
+  padding: 2% 2% 0;
+}
+
+/* START AND RECOMMEND STYLING */
+#start-recommend{
+  padding: 2% 7%;
+}
+
+#start-recommend h2{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  color: #15354B;
+}
+
+#start-recommend p{
+  font-family: 'Rubik', sans-serif;
+  font-size: 1rem;
+  color: #506270;
+	padding-bottom: 3%;
+}
+
+.recommend-btn{
+  background-color: #EF7F65;
+  border-radius: 6px;
+  color: white;
+  padding: 1% 5%;
+  font-family: 'Rubik', sans-serif;
+	margin-top: 4%;
+}
+
+form button{
+  background-color: #80E0DD;
+  border-radius: 6px;
+  color: white;
+  padding: 1% 5%;
+  font-family: 'Rubik', sans-serif;
+}
+
+input{
+  margin-right: 4%;
+  width: 270px;
+  background-color: #DEF9F9;
+  padding: 1%;
+  border: none;
+  border-radius: 6px;
+  font-family: 'Rubik', sans-serif;
+}
+::placeholder{
+  color: #80E0DD;
+}
+.Row{
+  display: flex;
+  text-align:
+}
+.recommend-content{
+  padding: 14% 2% 2%;
+}
+
+/* PRICING TABLE */
+table, thead, tbody, tfoot, tr, td{
+	display: block;
+}
+
+#pricing{
+	font-family: 'Montserrat', sans-serif;
+	text-align: center;
+}
+
+#pricing h2{
+	text-align: center;
+	font-size: 2.25rem;
+	color: #15354B;
+}
+
+table{
+	border: 2px solid #eeeeee;
+	border-radius: 10px;
+	padding: 3% 2%;
+	display: inline-block;
+	margin: 5% 2%;
+	text-align: left;
+	width: 530px;
+}
+
+thead{
+	border-bottom: 2px solid #eeeeee;
+}
+
+
+thead,tbody,tfoot{
+	margin: 3% 0%
+}
+
+.table-header{
+	position: relative;
+}
+
+.plan-image{
+ position: relative;
+ top: 20px;
+ left: 40px;
+}
+
+.plan-name{
+	position: relative;
+	left: 250px;
+	bottom: 57px;
+}
+
+.cost{
+	font-size: 40px;
+	font-weight: bolder;
+	margin: 4% 7%;
+}
+
+.dollar-sign{
+	font-size:20px;
+	vertical-align: text-top;
+}
+
+.month{
+	font-size: 20px;
+}
+
+.first-ftr, .second-ftr, .third-ftr, .fourth-ftr{
+	font-size: 18px;
+	font-weight: bold;
+	margin-bottom: 7%;
+}
+
+.personal-signup{
+  background-color: #80E0DD;
+	color: white;
+	padding: 1% 10%;
+	border-radius: 30px;
+}
+
+.personal-try{
+	color: #80E0DD;
+}
+
+.business-signup{
+	background-color: #EF7F65;
+	color: white;
+	padding: 1% 10%;
+	border-radius: 30px;
+}
+
+.business-try{
+	color:  #EF7F65;
+}
+
+/* SUBSCRIBE */
+
+#subscribe{
+	padding: 5%;
+	text-align: center;
+}
+
+#subscribe h3{
+	font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+	color: #15354B;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+#subscribe button{
+	font-family: 'Rubik', sans-serif;
+	font-size: 1.25rem;
+	color: white;
+  background-color: #80E0DD;
+	border-radius: 30px;
+	padding: 0.3% 5%;
+	margin: 2%;
+	vertical-align: middle;
+}
+
+/* FOOTER */
+
+.breaker{
+	color: #eee;
+	height: 2px;
+}
+
+footer{
+	padding: 2% 5%;
+	display: flex;
+}
+
+.header4{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1.25rem;
+	font-weight: bold;
+}
+
+.quick-links{
+	margin: 5% 10% 0%;
+	min-width: 200px;
+}
+
+.how{
+	margin:5% 5% 0%;
+	min-width: 200px;
+}
+
+.links-list{
+	font-family: 'Rubik', sans-serif;
+  font-size: 1rem;
+	color: #506270;
+}
+.icons{
+	margin: 5% 5% 0% 2%;
+	min-width: 300px;
+}
+
+.fab{
+	margin: 0% 8%;
+}
+.fa-facebook-f{
+	color: #3B5998;
+}
+.fa-twitter{
+	color: #1DA1F2;
+}
+.fa-instagram{
+	color: #E1306C;
+}
+.fa-linkedin-in{
+	color: #0077B5;
+}
+
+.copyright{
+	font-family: 'Rubik', sans-serif;
+  font-size: 1rem;
+	color: #506270;
+	margin: 1%;
+}
